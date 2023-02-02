@@ -18389,6 +18389,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Lucas\\OneDrive\\Documentos\\ISTEA\\2022\\Herramientas de Programacion 2022\\GestionStock\\Pages\\Libros\\Listado.cshtml",
+      "TargetPath": "Pages\\Libros\\Listado.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Lucas\\OneDrive\\Documentos\\ISTEA\\2022\\Herramientas de Programacion 2022\\GestionStock\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"

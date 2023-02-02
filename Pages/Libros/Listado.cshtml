@@ -1,0 +1,28 @@
+﻿@page
+@model GestionStock.Pages.ListadoModel
+@{
+}
+<h1>Inventario de Libros</h1>
+
+<table>
+    <head>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Genero</th>
+        </tr>    
+    </head>
+    <tbody>
+       @foreach (var item in Model.Stock)
+       {
+         <tr>
+             <td>@item.Id</td>
+             <td>@item.Nombre</td>
+             <td>@item.Genero</td>
+         </tr>
+         
+       }
+        
+    </tbody>
+
+</table>
