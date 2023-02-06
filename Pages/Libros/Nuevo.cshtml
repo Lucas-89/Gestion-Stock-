@@ -1,0 +1,33 @@
+﻿@page
+@model GestionStock.Pages.NuevoModel
+@{
+}
+
+<form method="post">
+    <p>@ViewData["Instituto"]</p>
+    <p>@Model.Mensaje</p>
+    <p>Nombre del Libro:  @Model.NombreLibro</p>
+    <label>Id</label>
+    <input type="text" name="id" placeholder="Ingrese un ID"/>
+    <label for="checkbox">Esto Es un CHECKBOX</label>
+    <input type="checkbox"/>
+
+    <label for="radio">Esto Es un boton RADIO</label>
+    <input type="radio"/>
+    <label for="clave">Contraseña</label>
+    <input type="password" name="clave"/>
+    <input type="file" />
+    <button class="btn btn-warning">Guardar</button>
+    <input type="submit" class="btn btn-success" value="Guardar Libro">
+</form>
+
+
+<form method="post" asp-page-handler="Modificar">
+    <button class="btn btn-default">Modificar</button>
+</form>
+
+<form method="post" asp-page-handler="Verificar">
+    <button class="btn btn-danger">Verificar</button>
+</form>
+
+<a href="/Libros/Nuevo" class="btn btn-blue">Volver a Cargar el Get</a>
